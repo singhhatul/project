@@ -5,7 +5,7 @@ body{
   background-color:#f4f4f4;
 }
 
-/* Global */
+/* styling for all tags*/
 .container{
   width:80%;
   margin:auto;
@@ -34,7 +34,7 @@ ul{
   margin-bottom:10px;
 }
 
-/* Header **/
+/* header styling */
 header{
   background:#35424a;
   color:#ffffff;
@@ -97,7 +97,7 @@ header a:hover{
   font-size:20px;
 }
 
-/* Newsletter */
+/* Newsletter styling */
 #newsletter{
   padding:15px;
   color:#ffffff;
@@ -119,7 +119,7 @@ header a:hover{
   width:250px;
 }
 
-/* Boxes */
+/* Boxes  margin styling*/
 #boxes{
   margin-top:20px;
 }
@@ -135,26 +135,26 @@ header a:hover{
   width:90px;
 }
 
-/* Sidebar */
+/* Sidebar styling */
 aside #sidebar{
   float:right;
   width:30%;
   margin-top:10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
+aside #sidebar .quote input, aside#sidebar .quote textarea{
   width:90%;
   padding:5px;
 }
 
-/* Main-col */
-article#main-col{
+/* Main */
+article #main-col{
   float:left;
   width:65%;
 }
 
 /* Services */
-ul#services li{
+ul #services li{
   list-style: none;
   padding:20px;
   border: #cccccc solid 1px;
@@ -169,21 +169,6 @@ footer{
   background-color:#e8491d;
   text-align: center;
 }
-
-/* Media Queries */
-@media(max-width: 768px){
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
 
   header{
     padding-bottom:20px;

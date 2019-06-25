@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Atul Singh> -- <Associate Software Engineer> 
 
 # THANKS
 
-    <name>
+    <singh>
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+   
